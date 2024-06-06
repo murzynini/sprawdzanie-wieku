@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Sprawdzanie wieku</title>
+	<meta charset="UTF-8" />	
+	<script type="text/javascript">	
+		function sprawdzanie()
+		{
+			var wiek = document.getElementById("eueeue").value;			
+			if (wiek>=18) document.getElementById("sprawdzam").innerHTML="Jest sztywny git";
+			else document.getElementById("sprawdzam").innerHTML="kid";					
+		}	
+	</script>
+</head>
+<body>
+	<input type="text" id="eueeue" />
+	<input type="submit" value="Dowodzik poproszę" onclick="sprawdzanie()"/>	
+	<div id="sprawdzam"></div>
+</body>
+</html>
